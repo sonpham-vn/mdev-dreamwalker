@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "2021.0 (CE SDK v2.4.7316)",
+	"FriendlyName": "Vitruvio",
+	"Description": "Vitruvio adds support for CityEngine's procedural runtime (PRT)",
+	"Category": "Misc",
+	"CreatedBy": "Esri",
+	"CreatedByURL": "https://www.esri.com/en-us/home",
+	"DocsURL": "https://github.com/Esri/vitruvio/blob/master/doc/usage.md",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/9bf931969c174491bd9a7ca517a40653",
+	"SupportURL": "",
+	"EngineVersion": "4.27.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "Vitruvio",
+			"Type": "Runtime",
+			"LoadingPhase": "PostDefault",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "VitruvioEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	]
+}
